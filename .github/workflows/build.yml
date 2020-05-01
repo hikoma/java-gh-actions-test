@@ -23,6 +23,6 @@ jobs:
 
       - uses: actions/upload-artifact@v2
         if: always()
-        name: test-reports
         with:
+          key: test-reports
           path: build/reports/tests
