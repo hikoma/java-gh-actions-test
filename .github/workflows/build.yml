@@ -24,4 +24,4 @@ jobs:
       - uses: actions/upload-artifact@v2
         if: always()
         with:
-          path: build/reports/test
+          path: build/reports/tests
